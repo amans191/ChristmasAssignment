@@ -27,10 +27,11 @@ void table() {
   vertex(75,675,0);
   endShape(CLOSE);
   
-  //right hand-side shape
+  //right hand-side shape 
   beginShape();
   vertex(675,75,0);
   vertex(600,150,-depth);
   vertex(600,600,-depth);
   vertex(675,675,0);
   endShape(CLOSE);
+}
