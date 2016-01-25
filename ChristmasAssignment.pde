@@ -6,20 +6,14 @@ void setup()
 
 void draw()
 {
-  stroke(255);
-  fill(0);
-  
-  int topFade = -999;
-  int bottomFade = -999;
-  int leftFade = -999;
-  int rightFade = -999;
-  int depth = 400;
-
-  
-  // if the wall was hit by the ball, it'll fade.
-  
+  background(0);
   table();
   
   
-  
+  paddle();
+}
+
+void paddle()
+{
+  rect(mouseX,mouseY,100,100);
 }

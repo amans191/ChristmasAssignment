@@ -1,6 +1,7 @@
-void table() {
+void table() 
+{
   stroke(255);
-  
+  fill(0);
   int depth = 400;
   
   //top shape
